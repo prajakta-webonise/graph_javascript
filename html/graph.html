@@ -1,0 +1,20 @@
+<html>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!--include jquery -->
+<head>
+<script src="graph.js"></script>							 <!-- Link to graph.js-->	
+</head>
+<body>
+<div>
+<form>
+Enter the equation: <input type="text" id="equation" name="equation"/>			<!-- Enter the eqaution to solve-->	
+Start point: <input type="text" id="start" name="start"/>				<!-- Enter the start point-->
+End point: <input type="text" id="end" name="end"/>					<!-- Enter the end point-->
+Steps: <input type="text" id="steps" name="steps"/>					<!-- Enter the steps-->
+<input type="button" id="enter" value="submit"/>
+<br>
+(Ex: x+y=10)
+</form>
+<center><canvas id="canvas" width="800" height="600" ></canvas></center>		<!-- canvas element to draw graph-->
+</div>
+</body>
+</html>
